@@ -1,11 +1,11 @@
-About r-ggpolypath
-==================
+About r-ggpolypath-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpolypath-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mdsumner/ggpolypath, http://rpubs.com/kohske/3522
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpolypath-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for working with polygons with holes in 'ggplot2', with a new 'geom' for drawing a 'polypath' applying the 'evenodd' or 'winding' rules.
 
