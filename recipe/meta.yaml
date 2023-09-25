@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpolypath_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpolypath/ggpolypath_{{ version }}.tar.gz
-  sha256: 20f3e438b1c6d221687dbdf8063b46e0b80457f24d1c9b50723c5a051c5029c6
+  sha256: fef684499cba1ce52419a5365cf571ecc8b90dd77d9621468dbdb15b210df646
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
