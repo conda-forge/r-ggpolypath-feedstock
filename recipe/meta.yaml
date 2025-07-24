@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpolypath_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpolypath/ggpolypath_{{ version }}.tar.gz
-  sha256: fef684499cba1ce52419a5365cf571ecc8b90dd77d9621468dbdb15b210df646
+  sha256: 278bcdf0a8d26a1141bf450fb199862dabccdfd357e709d2f12779efad70a3cf
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
